@@ -1,10 +1,10 @@
-package com.example.demo;
+package cmpe172_group3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WeightrackerApplicationTests {
+class WeightTrackerApplicationTests {
 
 	@Test
 	void contextLoads() {

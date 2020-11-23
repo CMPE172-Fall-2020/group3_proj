@@ -1,13 +1,13 @@
-package com.example.demo;
+package cmpe172_group3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WeightrackerApplication {
+public class WeightTrackerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WeightrackerApplication.class, args);
+		SpringApplication.run(WeightTrackerApplication.class, args);
 	}
 
 }
