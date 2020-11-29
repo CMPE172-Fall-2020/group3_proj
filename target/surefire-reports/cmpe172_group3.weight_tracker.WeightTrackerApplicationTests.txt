@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cmpe172_group3.weight_tracker.WeightTrackerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.039 s - in cmpe172_group3.weight_tracker.WeightTrackerApplicationTests
