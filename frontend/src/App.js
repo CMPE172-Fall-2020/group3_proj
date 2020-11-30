@@ -1,4 +1,9 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import UserLogin from "./Components/UserLogin";
+import UserInfo from "./Components/UserInfo";
+import UserManagement from "./Components/UserManagement";
+import Statistics from "./Components/Statistics";
 import './App.css';
 
 class App extends Component {
