@@ -49,14 +49,14 @@ export default function UserInfo() {
   const [firstLoad, setLoad] = React.useState(true);
   let isLoading = true;
 
-  async function sampleFunc() {
-    let response = await fetch("/api/user");
+  async function getUserInfo() {
+  	let response = await fetch("/api/user");
     let body = await response.json();
-    updateData(body);
+    updateData(body); 
   }
 
   if (firstLoad) {
-    sampleFunc();
+    getUserInfo();
     setLoad(false);
   }
 
@@ -86,8 +86,6 @@ export default function UserInfo() {
                 <TableCell align="center">Age</TableCell>
                 <TableCell align="center">Weight (kg)</TableCell>
                 <TableCell align="center">Height (m)</TableCell>
-                <TableCell align="center">BMI</TableCell>
-                <TableCell align="center">Category</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -98,9 +96,6 @@ export default function UserInfo() {
                   <TableCell align="center">{row.age}</TableCell>
                   <TableCell align="center">{row.weight}</TableCell>
                   <TableCell align="center">{row.height}</TableCell>
-                  <TableCell align="center">{row.bmi}</TableCell>
-                  <TableCell align="center">{row.category}</TableCell>
-
                 </TableRow>
               ))}
             </TableBody>

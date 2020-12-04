@@ -31,12 +31,6 @@ public class User {
 	@Column
 	private float height;
 	
-	@Column
-	private float bmi;
-	
-	@Column
-	private String category;
-	
 	public User get() {
 		return this;
 	}
@@ -61,7 +55,7 @@ public class User {
 		return this.lastName;
 	}
 
-	public void LastName(String lastName) {
+	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 
@@ -88,35 +82,4 @@ public class User {
 	public void setHeight(float height) {
 		this.height = height;
 	}
-	
-	public float getBmi() {
-		return this.bmi;
-	}
-	
-	public void calculateBmi(float height, float weight) {
-		this.bmi = (100 * 100 * weight)/( height * height);
-	}
-	
-	public String getCategory() {
-		return this.category;
-	}
-	
-	public void setCategory(float bmi) {
-		if (bmi < 18.5) {
-			this.category = "underweight";
-		}
-		
-		else if (bmi >= 18.5 && bmi <= 24.9) {
-			this.category = "normal";
-		}
-		
-		else if (bmi >= 25 && bmi <= 29.9) {
-			this.category = "overweight";
-		}
-		
-		else {
-			this.category = "obese";
-		}
-	}
- 	
 }

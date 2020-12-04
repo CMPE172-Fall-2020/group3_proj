@@ -48,7 +48,7 @@ export default function UserLogin() {
 
   async function getUser(toInput) {
     const response = await fetch("/api/user", {
-      method: "GET", // *GET, POST, PUT, DELETE, etc.
+      method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
       credentials: "same-origin", // include, *same-origin, omit
@@ -101,7 +101,7 @@ export default function UserLogin() {
                 onChange={handleFirstNameChange}
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12}>
               <TextField
                 id="lastname"
                 value={lastName}
