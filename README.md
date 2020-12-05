@@ -6,7 +6,7 @@
 
 
 # Weight Tracker App 
-## A web application to enter and track weight, bmi, and a variety of other health features**
+## A web application to enter and calculate weight and bmi**
 
 Mohammad Sleiman, Isabelle Low, Smruthi Danda
 
