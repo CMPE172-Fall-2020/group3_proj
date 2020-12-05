@@ -65,7 +65,7 @@ To run application on local machine, run:
 ### Class Diagram
 [class diagram from report here]
 ### Database Schema
-[database schema from report here]
+![Database Schema Diagram](https://github.com/CMPE172-Fall-2020/group3_proj/blob/main/schemaDiagram.PNG)
 
 ## File Structure
 ## Screenshots
