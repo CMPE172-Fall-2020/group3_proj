@@ -71,6 +71,7 @@ http://group3cmpe172.s3-website-us-west-1.amazonaws.com/
 ![Database Schema Diagram](https://github.com/CMPE172-Fall-2020/group3_proj/blob/main/dbSchema.PNG)
 
 ## File Structure
+![File Structure](https://github.com/CMPE172-Fall-2020/group3_proj/blob/main/FileStructure.png)
 ## Screenshots
   [insert demo screenshots here]
 
