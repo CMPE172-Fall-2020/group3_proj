@@ -18,11 +18,6 @@ Computer Engineering 172: EnterpriseSoftware Fall 2020
 ## Table of content
 
 - [Setup](#setup)
-    - [Angular](#angular)
-    - [Eclipse/Maven](#eclipsemaven)
-    - [Docker](#docker)
-    - [mySQL](#mySQL)
-- [Installation](#installation)
     - [Backend](#backend)
     - [Fronted](#frontend)
     - [Docker](#docker)
@@ -33,16 +28,9 @@ Computer Engineering 172: EnterpriseSoftware Fall 2020
 - [File Structure](#file-structure)
 - [Screenshots](#screenshots)
 
+
+
 ## Setup
-setup
-
-### Angular
-angular setup
-### Eclipse/Maven
-### Docker
-### mySQL
-
-## Installation
 ### Backend
 ### Frontend
 ### Docker
