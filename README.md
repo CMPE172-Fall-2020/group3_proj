@@ -33,6 +33,22 @@ Computer Engineering 172: EnterpriseSoftware Fall 2020
 ## Setup
 ### Backend
 To set up database, run the following sql script:
+```
+DROP DATABASE IF EXISTS weight_tracker;
+CREATE DATABASE weight_tracker;
+USE weight_tracker;
+
+CREATE TABLE IF NOT EXISTS userinfo (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  first_name varchar(45) NOT NULL,
+  last_name varchar(45) NOT NULL,
+  age int(11) NOT NULL,
+  weight float(11) NOT NULL,
+  height float(11) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+```
 
 To run the springboot application on local machine, go to the **WeightTrackerApplication.java** file in src/main/java/cmpe172_group3.weight_tracker and run file as a java application.
 ### Frontend
