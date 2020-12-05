@@ -32,6 +32,9 @@ Computer Engineering 172: EnterpriseSoftware Fall 2020
 
 ## Setup
 ### Backend
+To set up database, run the following sql script:
+
+To run the springboot application on local machine, go to the **WeightTrackerApplication.java** file in src/main/java/cmpe172_group3.weight_tracker and run file as a java application.
 ### Frontend
 To install node packages, run:
 ```npm install```
