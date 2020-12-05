@@ -56,6 +56,9 @@ To install node packages, run:
 
 To run application on local machine, run:
 ```npm start```
+
+To view on aws, follow this link:
+http://group3cmpe172.s3-website-us-west-1.amazonaws.com/
 ### Docker
 
 ## Diagrams
