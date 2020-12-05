@@ -1,0 +1,26 @@
+<mat-card class='card-class1' style="display: inline-block;">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Your BMI Information</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+       <div class="mat-content-text">Your BMI: {{bmi}}</div> 
+       <div class="mat-content-text">BMI Status: {{category}}</div>
+       <div class="sub-heading">Calculate BMI:</div>
+       <mat-form [formGroup]="myGroup">
+        <mat-form-field appearance="outline">
+            <mat-label>Weight</mat-label>
+            <input matInput placeholder="Weight" formControlName="weight">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Height</mat-label>
+            <input matInput placeholder="Height" formControlName="height">
+        </mat-form-field>
+       </mat-form>
+       <p>
+        Test BMI: {{ calculateBMI() }}
+      </p>
+    </mat-card-content>
+</mat-card>
+
+
