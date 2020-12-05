@@ -68,7 +68,7 @@ http://group3cmpe172.s3-website-us-west-1.amazonaws.com/
 ### Class Diagram
 ![Class Diagram](https://github.com/CMPE172-Fall-2020/group3_proj/blob/main/classDiagram.PNG)
 ### Database Schema
-![Database Schema Diagram](https://github.com/CMPE172-Fall-2020/group3_proj/blob/main/schemaDiagram.PNG)
+![Database Schema Diagram](https://github.com/CMPE172-Fall-2020/group3_proj/blob/main/dbSchema.PNG)
 
 ## File Structure
 ## Screenshots
