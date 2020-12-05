@@ -33,6 +33,10 @@ Computer Engineering 172: EnterpriseSoftware Fall 2020
 ## Setup
 ### Backend
 ### Frontend
+To install node packages, run:
+> npm install
+To run application on local machine, run:
+> npm start
 ### Docker
 
 ## Diagrams
